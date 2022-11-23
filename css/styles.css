@@ -299,7 +299,7 @@ Sidebar
   transform: translateX(0);
 }
 .fa-bars::before {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .sidebar-links {
   text-align: center;
@@ -543,7 +543,7 @@ Services
 @media screen and (min-width: 320px) {
   .services-center {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     -webkit-column-gap: 2rem;
     -moz-column-gap: 2rem;
     column-gap: 2rem;
@@ -632,18 +632,41 @@ Projects
 @media screen and (min-width: 320px) {
   .projects-center {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     -webkit-column-gap: 2rem;
     -moz-column-gap: 2rem;
     column-gap: 2rem;
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 976px) {
   .projects-center {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    grid-template-areas:
+      "a b"
+      "c d"
+    }
+  .project-img {
+    height: 100%;
   }
-}
-@media screen and (min-width: 992px) {
+  .project {
+    height: 100%;
+  }
+  .project-1 {
+    grid-area: a;
+  }
+  .project-2 {
+    grid-area: b;
+  }
+  .project-3 {
+    grid-area: c;
+  }
+  .project-4 {
+    grid-area: d;
+  }
+  }
+
+@media screen and (min-width: 1200px) {
   .projects-center {
     grid-template-rows: 300px 300px;
     gap: 1rem;
