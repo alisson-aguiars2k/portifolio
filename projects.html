@@ -19,12 +19,7 @@
       <div class="nav-center">
         <!-- nav header -->
         <div class="nav-header">
-          <img
-            src="./images/icon.png"
-            class="nav-logo"
-            alt="nav logo"
-            width="75"
-          />
+          <ul class="nav-links"><li><a href="index.html">&#60;id="alisson"&#47;&#62;</a></li></ul>
           <button class="nav-btn" id="nav-btn">
             <i class="fas fa-bars"></i>
           </button>
@@ -32,16 +27,16 @@
         <!-- nav links -->
         <ul class="nav-links">
           <li>
-            <a href="index.html">página pricipal</a>
+            <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="about.html">minha jornada</a>
+            <a href="about.html">About</a>
           </li>
           <li>
-            <a href="projects.html">projetos pessoais</a>
+            <a href="projects.html">Project</a>
           </li>
           <li>
-            <a href="contact.html">entre em contato</a>
+            <a href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -50,60 +45,69 @@
     <!-- sidebar -->
     <aside class="sidebar" id="sidebar">
       <div>
+        <a href="index.html">
+          <img
+            src="./images/profile-pic (11).png"
+            class="nav-logo"
+            alt="nav logo"
+            width="65"
+          />
+        </a>
         <button id="close-btn" class="close-btn">
           <i class="fas fa-times"></i>
         </button>
         <ul class="sidebar-links">
-          <li>
-            <a href="index.html">página pricipal</a>
+           <li>
+            <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="about.html">minha jornada</a>
+            <a href="about.html">About</a>
           </li>
           <li>
-            <a href="projects.html">projetos pessoais</a>
+            <a href="projects.html">Project</a>
           </li>
           <li>
-            <a href="contact.html">entre em contato</a>
+            <a href="contact.html">Contact</a>
           </li>
         </ul>
-        <ul class="social-icons">
-          <!-- single item -->
-          <li>
-            <a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <!-- end of single item -->
-          <!-- single item -->
-          <li>
-            <a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <!-- end of single item -->
-          <!-- single item -->
-          <li>
-            <a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-squarespace"></i>
-            </a>
-          </li>
-          <!-- end of single item -->
-          <!-- single item -->
-          <li>
-            <a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-behance"></i>
-            </a>
-          </li>
-          <!-- end of single item -->
-          <!-- single item -->
-          <li>
-            <a href="https://www.twitter.com" class="social-icon">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-          <!-- end of single item -->
-        </ul>
+        <ul class="social-icons hero-icons">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/alisson-aguiars2k/"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/alisson-aguiars2k"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/alisson.rocha.7127"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/alisson_aguiars2k/"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
       </div>
     </aside>
     <!-- end of sidebar -->
@@ -113,22 +117,22 @@
     <!-- ############## -->
     <!-- ############## -->
 
-    <header class="projects-hero">
+    <section class="section single-page">
       <!-- section title -->
       <div class="section-title">
-        <h1>meus projetos pessoais</h1>
+        <h1>projects</h1>
         <div class="underline"></div>
         <div class="section-center">
-          <p style="text-align: center;">
-            Aqui você vai encrontrar meus projetos pessoais desenvolvido ao longo dos meus estudos. Os projetos foram desenvolvidos em HTML5, CSS3, nas Linguagens de Programação JavaScript( ES6 ) e TypeScript com a biblioteca React.
-          </p>
+          <h5 style="text-align: center;">
+            Aqui você vai encrontrar meus projetos pessoais desenvolvido ao longo dos meus estudos. 
+          </h5>
         </div>
       </div>
       </div>
       <!--end of section title -->
-    </header>
+    
 
-    <section class="section">
+    
       <div class="section-title">
         <h4>react || typeScript</h4>
       </div>
@@ -142,7 +146,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">test registration </h4>
+            <h3 style="text-align:center;">test registration </h3>
             <p>
               Test Registration, nesse aplicação podemos cadastrar carros de vários modelos, editar as informações ou excluir-las.
               <br>
@@ -150,7 +154,7 @@
             </p>
             <div class="project-footer">
               <span>
-                <i class="fab fa-github"></i>
+                <i class="fab fa-github "></i>
               </span>
               <a href="https://github.com/alisson-aguiars2k/test-registration" target="_blank">source code</a>
             </div>
@@ -166,7 +170,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">multi form</h4>
+            <h3 style="text-align:center;">multi form</h3>
             <p>
               Mult Form, nesse aplicação podemos cadastrar desenvolvedores em busca de oportunidades na área da programação.
               <br>
@@ -190,7 +194,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">person finances</h4>
+            <h3 style="text-align:center;">person finances</h3>
             <p>
               Person Finances, nesse aplicação podemos cadastrar e excluir itens nas categorias ( Alimentação, Aluguel, Combustível, Salário ), no mês selecionado.
 
@@ -204,28 +208,7 @@
           </div>
         </article>
         <!-- end of single project -->
-        <!-- 
-        <article class="single-project">
-          <div class="project-container">
-            <img src="./images/gallery-photos.jpg" alt="single project" />
-            <a href="https://www.johnsmilga.com" class="project-icon">
-              <i class="fas fa-home"></i>
-            </a>
-          </div>
-          <div class="project-details">
-            <h4 style="text-align:center;">photo gallery</h4>
-            <p>
-             Photo Gallery, nesse aplicação podemos enviar fotos do computador local, como deletar-las. Nesse projeto foi usado o serviços de hospedagem Firebase( Storage ). O código foi desenvolvido usando os Hooks useState, useEffect e o FormEvent. A estilização foi feita com a biblioteca Styled Components.
-            </p>
-            <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
-              <a href="https://www.github.com">source code</a>
-            </div>
-          </div>
-        </article>
-        -->
+        
       </div>
     </section>
 
@@ -243,7 +226,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">comfy sloth</h4>
+            <h3 style="text-align:center;">comfy sloth</h3>
             <p>
               Comfy Sloth, Uma loja virtual super confortável e agradável aos olhos de quem navega por ela.
               <br>
@@ -267,7 +250,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">github search</h4>
+            <h3 style="text-align:center;">github search</h3>
             <p>
               Github search, nesta aplicação é cosumida a API do Github, e os serviços da <a href="https://www.fusioncharts.com/" target="_blank">Funsion Charts</a>, para os gráficos.
               <br>
@@ -285,35 +268,13 @@
         <!-- single project -->
         <article class="single-project">
           <div class="project-container">
-            <img src="./images/stock-photos.jpg" alt="single project" />
-            <a href="https://react-js-stock-photos.netlify.app/" target="_blank" class="project-icon">
-              <i class="fas fa-home"></i>
-            </a>
-          </div>
-          <div class="project-details">
-            <h4 style="text-align:center;">🚧 Stock Photos em Manutenção... 🚧</h4>
-            <p>
-             Stock Photo, nesse aplicação podemos pesquisar fotos através do serviço da ( <a href="https://unsplash.com/" target="_blank">Unsplash</a> ), com o scroll "infinito". O código foi desenvolvido usando os Hooks useState, useEffect e useRef. A estilização foi feita com a biblioteca Styled Components.
-            </p>
-            <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
-              <a href="https://github.com/alisson-aguiars2k/stock-photos-react-js" target="_blank">source code</a>
-            </div>
-          </div>
-        </article>
-        <!-- end of single project -->
-        <!-- single project -->
-        <article class="single-project">
-          <div class="project-container">
             <img src="./images/pagination.jpg" alt="single project" />
             <a href="https://alisson-aguiars2k.github.io/pagination-react-js/" target="_blank" class="project-icon">
               <i class="fas fa-home"></i>
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">pagination</h4>
+            <h3 style="text-align:center;">pagination</h3>
             <p>
              Pagination, nesse aplicação podemos navegar sobre as páginas, cada uma contendo um limite de 12 resultados, consumindo a API do  ( <a href="https://docs.github.com/pt/rest" target="_blank">GitHub</a> ). O código foi desenvolvido usando os Hooks useState e useEffect. A estilização foi feita com a biblioteca Styled Components.
             </p>
@@ -344,7 +305,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">Comfy Store</h4>
+            <h3 style="text-align:center;">Comfy Store</h3>
             <p>
               Comfy Store, Uma loja virtual super confortável e agradável aos olhos de quem navega por ela. 
               <br>
@@ -368,7 +329,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">random person AJAX</h4>
+            <h3 style="text-align:center;">random person AJAX</h3>
             <p>
                Random Person, um aplicação simples, quem tem como objetivo ver informações pessoais dos usuários com o conceito AJAX.
             </p>
@@ -390,7 +351,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">products AJAX</h4>
+            <h3 style="text-align:center;">products AJAX</h3>
             <p>
               Products Starter, um aplicação simples, quem tem como objetivo ver informações dos produtos com o conceito AJAX.
               
@@ -413,7 +374,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">cocktails AJAX</h4>
+            <h3 style="text-align:center;">cocktails AJAX</h3>
             <p>
                Cocktails, um aplicação simples, quem tem como objetivo filtrar e ver informações do produtos com o conceito AJAX.
             </p>
@@ -436,7 +397,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">gallery OOP</h4>
+            <h3 style="text-align:center;">gallery OOP</h3>
             <p>
               Gallery, um aplicação simples, quem tem como objetivo mostrar fotos em forma de galeria com o conceito OOP.
             </p>
@@ -458,7 +419,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">counter OOP</h4>
+            <h3 style="text-align:center;">counter OOP</h3>
             <p>
               Counter, um aplicação simples, quem tem como objetivo fazer contagem separadas entre dois contadores com o conceito OOP.
             </p>
@@ -480,7 +441,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">slider ES6</h4>
+            <h3 style="text-align:center;">slider ES6</h3>
             <p>
               Slider, um aplicação simples, quem tem como objetivo passar sliders de comentários dos clientes, usando conceitos ES6.
             </p>
@@ -502,7 +463,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">filters ES6</h4>
+            <h3 style="text-align:center;">filters ES6</h3>
             <p>
               Filters, um aplicação simples, quem tem como objetivo filtrar produtos por categorias e campo de pesquisa, usando conceitos ES6.
             </p>
@@ -524,7 +485,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">pagination ES6</h4>
+            <h3 style="text-align:center;">pagination ES6</h3>
             <p>
               Pagination, um aplicação simples, quem tem como objetivo obter 10 resultados por página, usando conceitos ES6.
             </p>
@@ -546,7 +507,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">striper submenus ES6</h4>
+            <h3 style="text-align:center;">striper submenus ES6</h3>
             <p>
               Striper Submenus, um aplicação simples, quem tem como objetivo submenus dinâmicos, usando conceitos ES6.
             </p>
@@ -568,7 +529,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">scroll DOM</h4>
+            <h3 style="text-align:center;">scroll DOM</h3>
             <p>
               Scroll, um aplicação simples, quem tem como objetivo o scroll dinâmico, usando conceitos DOM.
             </p>
@@ -590,7 +551,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">grocery DOM</h4>
+            <h3 style="text-align:center;">grocery DOM</h3>
             <p>
               Grocery, um aplicação simples, quem tem como funcionalidades o cadastro, editar e deletar comidas, usando conceitos DOM.
             </p>
@@ -612,7 +573,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">color flipper DOM</h4>
+            <h3 style="text-align:center;">color flipper DOM</h3>
             <p>
               Color Flipper, um aplicação simples, quem tem como objetivo colorir o background de forma aleatória com nomes de cores e hexadecimais, usando conceitos DOM.
             </p>
@@ -634,7 +595,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">menu DOM</h4>
+            <h3 style="text-align:center;">menu DOM</h3>
             <p>
               Menu, um aplicação simples, quem tem como funcionalidades filtrar as comidas, usando conceitos DOM.
             </p>
@@ -664,7 +625,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4>north cycle</h4>
+            <h3 style="text-align:center;">north cycle</h3>
             <p>
               North Cycle, um landing page simples sobre bikes, com HTML5 Semântico e CSS3 conceitos de flexbox e responsive.
             </p>
@@ -686,7 +647,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">tourism portugal</h4>
+            <h3 style="text-align:center;">tourism portugal</h3>
             <p>
               Tourism Portugal, um landing page simples sobre turismo em Portugal, mostrando os principais cidades e pontos turisticos, com HTML5 Semântico e CSS3 conceitos de flexbox, Grid Layoute e responsive.
             </p>
@@ -708,7 +669,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">living room</h4>
+            <h3 style="text-align:center;">living room</h3>
             <p>
               Living Room, um landing page simples sobre móveis, com HTML5 Semântico e CSS3 conceitos de flexbox, Grid Layoute e responsive.
             </p>
@@ -730,7 +691,7 @@
             </a>
           </div>
           <div class="project-details">
-            <h4 style="text-align:center;">health care</h4>
+            <h3 style="text-align:center;">health care</h3>
             <p>
               Health Care, um landing page simples sobre medicina e seus serviços, com HTML5 Semântico e CSS3 com conceitos de flexbox e responsive.
             </p>
@@ -746,90 +707,6 @@
       </div>
     </section>
 
-<!--
-
-    <div class="section-center">
-        <hr />
-      </div>
-    <section class="section">
-      <div class="section-title">
-        <h4>backend web developer</h4>
-      </div>
-      <div class="section-center projects-page-center">
-       
-        <article class="single-project">
-          <div class="project-container">
-            <img src="./images/project-1.jpeg" alt="single project" />
-            <a href="https://www.johnsmilga.com" class="project-icon">
-              <i class="fas fa-home"></i>
-            </a>
-          </div>
-          <div class="project-details">
-            <h4>project name</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-              eveniet amet odit aperiam, provident cum possimus sapiente minus
-              quos! Ipsum?
-            </p>
-            <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
-              <a href="https://www.github.com">source code</a>
-            </div>
-          </div>
-        </article>
-        
-        <article class="single-project">
-          <div class="project-container">
-            <img src="./images/project-1.jpeg" alt="single project" />
-            <a href="https://www.johnsmilga.com" class="project-icon">
-              <i class="fas fa-home"></i>
-            </a>
-          </div>
-          <div class="project-details">
-            <h4>project name</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-              eveniet amet odit aperiam, provident cum possimus sapiente minus
-              quos! Ipsum?
-            </p>
-            <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
-              <a href="https://www.github.com">source code</a>
-            </div>
-          </div>
-        </article>
-        
-        <article class="single-project">
-          <div class="project-container">
-            <img src="./images/project-1.jpeg" alt="single project" />
-            <a href="https://www.johnsmilga.com" class="project-icon">
-              <i class="fas fa-home"></i>
-            </a>
-          </div>
-          <div class="project-details">
-            <h4>project name</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-              eveniet amet odit aperiam, provident cum possimus sapiente minus
-              quos! Ipsum?
-            </p>
-            <div class="project-footer">
-              <span>
-                <i class="fab fa-github"></i>
-              </span>
-              <a href="https://www.github.com">source code</a>
-            </div>
-          </div>
-        </article>
-      
-      </div>
-    </section>
-
-  -->
     <!-- ############## -->
     <!-- ############## -->
     <!-- ############## -->
